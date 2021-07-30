@@ -24,10 +24,10 @@ print("SELECTED SYMBOL:", symbol)
 
 
 if len(symbol) > 5:
-    print("OOPS THE INPUT MUST BE BETWEEN 1 AND 5 CHARACTERS.")
+    print("OOPS THE INPUT MUST BE BETWEEN 1 AND 5 CHARACTERS. PLEASE TRY AGAIN!")
     exit()
 elif len(symbol) <1:
-    print("OOPS THE INPUT MUST BE BETWEEN 1 AND 5 CHARACTERS.")
+    print("OOPS THE INPUT MUST BE BETWEEN 1 AND 5 CHARACTERS. PLEASE TRY AGAIN!")
     exit()
 
 
